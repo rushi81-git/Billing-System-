@@ -1,3 +1,12 @@
+# frontend
+frontend/node_modules
+frontend/build
+frontend/.env
+
+# backend
+backend/node_modules
+backend/.env
+
+# general
 node_modules
-build
 .env
