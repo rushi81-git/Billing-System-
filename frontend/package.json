@@ -4,12 +4,11 @@
   "description": "Frontend for Smart Billing System - FIXED VERSION",
   "private": true,
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "postinstall": "chmod +x node_modules/.bin/react-scripts",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
+  "start": "node ./node_modules/react-scripts/scripts/start.js",
+  "build": "node ./node_modules/react-scripts/scripts/build.js",
+  "test": "node ./node_modules/react-scripts/scripts/test.js",
+  "eject": "react-scripts eject"
+},
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
